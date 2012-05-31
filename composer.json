@@ -1,0 +1,16 @@
+{
+    "name": "asar/asar-coding-standards",
+    "type": "library",
+    "description": "The Asar Coding Standard to be used with PHP_CodeSniffer",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "authors" : [
+        {
+            "name": "Wayne Duran",
+            "email": "asartalo@projectweb.ph",
+            "role": "Developer",
+            "homepage": "http://www.asartalo.org"
+        }
+    ]
+}

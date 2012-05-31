@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<ruleset name="Asar">
+  <description>A Standard aimed to reduce verbosity while promoting documentation. </description>
+</ruleset>
