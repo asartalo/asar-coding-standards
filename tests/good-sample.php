@@ -8,7 +8,7 @@ use This\One,
 define('SOME_CONSTANT', 'some_value');
 
 /**
- * A Good Sample Class.
+ * A Good Sample Class
  *
  * A conforming class file must have a class-level documentation at least and a
  * brief description of what it is about and what it does. The lines should at
@@ -32,7 +32,7 @@ class GoodSample {
   }
 
   /**
-   * This method is documented.
+   * This method is documented
    *
    * As all other methods must be. This also includes all parameters and its
    * return type if any.
@@ -40,9 +40,9 @@ class GoodSample {
    * If a method is public, no need to add visibility label. Methods are public
    * by default. No need to say it.
    *
-   * @param string  $name The name to greet.
-   * @param boolean $louder Wether to greet in more emphasis.
-   * @return string The greeting.
+   * @param string  $name The name to greet
+   * @param boolean $louder Wether to greet in more emphasis
+   * @return string The greeting
    */
   function sayHello($name, $louder=false) {
     $this->internalizeHiddenAgenda();
@@ -58,11 +58,11 @@ class GoodSample {
   /**
    * This is another method
    *
-   * @param integer $var1 Some parameter.
-   * @param string  $var2 Another parameter.
-   * @param string  $var3 Another parameter.
+   * @param integer $var1 Some parameter
+   * @param string  $var2 Another parameter
+   * @param string  $var3 Another parameter
    * @throws Exception
-   * @return boolean Always true.
+   * @return boolean Always true
    */
   protected function multiLineFunction(
     $var1,
@@ -87,7 +87,7 @@ class GoodSample {
   /**
    * This is a private method
    *
-   * We must add a visibility label here of course.
+   * We must add a visibility label here of course
    */
   private function internalizeHiddenAgenda() {
     $this->agenda = "I am here to win.";

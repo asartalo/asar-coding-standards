@@ -14,15 +14,11 @@
 
 
   <rule ref="PEAR.ControlStructures.ControlSignature"/>
-  <rule ref="PEAR.ControlStructures.MultiLineCondition"/>
-  <rule ref="PEAR.Functions.FunctionCallSignature"/>
   <rule ref="PEAR.Functions.ValidDefaultValue"/>
 
   <rule ref="Squiz.Arrays.ArrayBracketSpacing"/>
   <rule ref="Squiz.Classes.LowercaseClassKeywords"/>
   <rule ref="Squiz.Classes.SelfMemberReference"/>
-  <rule ref="Squiz.Commenting.BlockComment"/>
-  <rule ref="Squiz.Commenting.ClassComment"/>
   <rule ref="Squiz.Commenting.DocCommentAlignment"/>
   <rule ref="Squiz.Commenting.FunctionCommentThrowTag"/>
   <rule ref="Squiz.Functions.FunctionDeclarationArgumentSpacing"/>
@@ -32,7 +28,6 @@
   <rule ref="Squiz.PHP.GlobalKeyword"/>
   <rule ref="Squiz.Strings.EchoedStrings"/>
   <rule ref="Squiz.WhiteSpace.ObjectOperatorSpacing"/>
-
   <rule ref="Zend.Files.ClosingTag"/>
 
   <rule ref="Generic.WhiteSpace.ScopeIndent">
@@ -57,9 +52,11 @@
 
   <!--
     TODO: Customize these
-  <rule ref="PEAR.Classes.ClassDeclaration"/>
-  <rule ref="Squiz.Commenting.FunctionComment"/>
-  <rule ref="Squiz.NamingConventions.ValidVariableName"/>
+    <rule ref="PEAR.Classes.ClassDeclaration"/>
+    <rule ref="Squiz.Commenting.FunctionComment"/>
+    <rule ref="Squiz.NamingConventions.ValidVariableName"/>
+    <rule ref="PEAR.Functions.FunctionCallSignature"/>
+  <rule ref="Squiz.Commenting.BlockComment"/>
   -->
 
 </ruleset>
