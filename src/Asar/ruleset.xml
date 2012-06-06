@@ -52,7 +52,6 @@
 
   <!--
     TODO: Customize these
-    <rule ref="PEAR.Classes.ClassDeclaration"/>
     <rule ref="Squiz.Commenting.FunctionComment"/>
     <rule ref="Squiz.NamingConventions.ValidVariableName"/>
     <rule ref="PEAR.Functions.FunctionCallSignature"/>
