@@ -49,12 +49,4 @@
     </properties>
   </rule>
 
-
-  <!--
-    TODO: Customize these
-    <rule ref="Squiz.Commenting.FunctionComment"/>
-    <rule ref="PEAR.Functions.FunctionCallSignature"/>
-  <rule ref="Squiz.Commenting.BlockComment"/>
-  -->
-
 </ruleset>

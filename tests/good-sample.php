@@ -40,7 +40,7 @@ class GoodSample {
    * If a method is public, no need to add visibility label. Methods are public
    * by default. No need to say it.
    *
-   * @param string  $name The name to greet
+   * @param string $name The name to greet
    * @param boolean $louder Wether to greet in more emphasis
    * @return string The greeting
    */
@@ -59,9 +59,9 @@ class GoodSample {
    * This is another method
    *
    * @param integer $var1 Some parameter
-   * @param string  $var2 Another parameter
-   * @param string  $var3 Another parameter
-   * @throws Exception
+   * @param string $var2 Another parameter
+   * @param string $var3 Another parameter
+   * @throws Exception An exception message
    * @return boolean Always true
    */
   protected function multiLineFunction(
@@ -88,6 +88,8 @@ class GoodSample {
    * This is a private method
    *
    * We must add a visibility label here of course
+   *
+   * @return string some greeting
    */
   private function internalizeHiddenAgenda() {
     $this->agenda = "I am here to win.";
